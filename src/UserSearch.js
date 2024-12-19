@@ -23,7 +23,7 @@ const UserSearch = () => {
       // Limpiamos cualquier mensaje de error
       setError('');
     } catch (err) {
-      // Si ocurre un error (por ejemplo, el usuario no existe o hay un problema con la solicitud)
+      // Si ocurree un error (por ejemplo, el usuario no existe o hay un problema con la solicitud)
       // mostramos un mensaje de error
       setError('Usuario no encontrado o error en la solicitud');
       // Limpiamos el nombre del usuario en caso de error
